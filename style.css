@@ -1,0 +1,326 @@
+body {
+	font-family: Arial;
+  /* For Safari 5.1 to 6.0 */
+  	background: url(http://www.pptbackground.net/background/Spot-Light-Powerpoint-Background-for-Powerpoint-Templates.jpg);
+  /* Standard syntax */
+	margin: 0 auto;
+	color:#000066;
+}
+
+.hidden{
+	display:none;
+}
+#wrapper {
+	height: 1000px;
+	width: 1230px;
+	margin: 0 auto;
+}
+#top-box {
+	float: right;
+	margin-right:30px;
+}
+
+.form-label{
+	color:#000000; font-size:102%;
+}
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+#items{
+	width:95%;
+	padding-top:30px;
+}
+
+li {
+	margin: 0px;
+	padding: 10px;
+	float:left;
+	list-style:none;
+}
+
+#tabs ul li a, .foot-link {
+	display: block;
+	height: 50px;
+	width: 270px;
+}
+
+.row{
+		height: 60px;
+		display:inline;
+		vertical-align: top;	
+		line-height: 40px;
+}
+
+.clear{clear:both}
+
+#log-in {
+	float: left;
+	width: 350px;
+	padding: 20px;
+	background:black;
+	height:575px;
+	border-radius: 30px 25px 0 35px;
+}
+
+.small-title{
+	margin:5px;
+	padding: 10px 0 10px 40px;
+	color:brown;
+}
+
+.note{
+	border-top: 2px solid green;
+	color:green;
+	font-weight:bold;
+	margin:0;
+	padding:5px 50px;
+}
+.da-slide > h2{
+	font-size: 16px;
+	font-style: italic;
+	color: #593741;
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
+}
+
+#log-in h2{
+	padding: 0px 80px 10px 0;
+}
+
+#log-in h2, #log-in p{
+	margin:10px 0 0 0 ;
+	display: inline;
+    vertical-align: top;
+}
+
+#log-in p{
+	padding: 0px 10px 10px 0;
+}
+
+#log-in h2{
+	color: yellow;
+}
+
+#log-in p{
+	color:#3333FF;
+}
+
+.form-label {
+	margin: 0px;
+	padding: 4px 0;
+	color: orangered;
+	
+}
+
+.right{
+	float:right;margin:0;
+}
+
+.left{
+	float:left;margin:0 20px;
+}
+
+p{
+	text-align:justify;
+	padding:0px 10px 10px 0;
+	margin:0;
+}
+
+.row-login {
+	padding: 5px 10px 30px 0;
+	height:50px;
+}
+
+.login-button{
+float:right;margin:9px 20px 0 0;
+color:white; background:#0099CC; 
+border: 1px solid green; border-radius:30px;
+padding: 10px 25px;
+}
+
+.info{
+	margin:0;
+	text-align:justify;
+	font-size:18px;
+	font-weight:bold;
+	font-style:italic;
+	text-shadow: 2px 2px 2px orange;
+	color:brown;
+}
+
+img{
+float:left;
+margin: 0 10px 0 0px;
+}
+
+a{
+text-align:center;
+}
+
+.form-label{
+	text-decoration:italic;
+}
+
+input[type="text"] ,input[type="submit"],input[type="email"],input[type="number"],textarea{
+width:95%;padding: 10px;
+border: 2px solid #CCCCCC;
+border-radius: 5px;
+font-size:1.0em;
+color: green;
+}
+
+button, input[type="reset"]{
+	font-weight:bold; color:yellow; background: black; padding:8px 10px; margin:60px 30px;	border-radius: 5px; border: 1px solid green; font-size: 1.1em;
+}
+
+#tabs-management {
+	margin: 0px;
+	float: left;
+	width: 820px;
+	
+}
+
+.item-link, .active{
+	margin: 0px;
+	width: 230px;
+	display:block;
+	padding-top:10px;
+	padding-bottom: 10px;
+	font-size: 1.3em;
+	border-radius: 10px 10px 0 0;
+	text-shadow: 1px 1px 1px green;
+}
+
+
+.item-link{
+	color: green;
+	
+}
+
+.tab{
+	background: #F2F2F2;
+	border-right: 1px solid green;
+	border-radius: 30px 30px 0 0;
+	margin-left: 12px;
+	border: 2px solid green;
+}
+
+.act{
+	background: green;
+}
+
+.active{
+	color:pink;
+}
+#feature {
+	padding: 10px;
+	width: 28%;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	float:left;
+}
+.categories {
+	float: left;
+	width: 24%;
+	margin-top: 10px 3px;
+}
+.small-item {
+	color: red;
+	font-size: 101%;
+	font-weight:bold;
+	padding:5px;
+}
+
+.extras{
+	background: yellow;
+	padding:1px 5px;
+	border:1px solid yellow;
+	border-radius: 6px;
+}
+
+#content-tab{
+	margin:0 0 0 12px;
+	background: url(http://williammora.com/assets/libgdx-martianrun-tutorial/background.png);
+	padding: 20px;
+	width:747px;
+	height:506px;
+}
+.small-trip{
+	float:left;
+	margin:10px 20px;
+	padding: 5px 15px;
+	border-radius: 30px;
+	border: 2px solid #F2F2F2;
+	background: black;
+	color: pink;
+	
+}
+
+input[type="checkbox"]{
+  margin: 18px  5px;
+ -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+}
+
+.top-link{
+	margin:0px;
+	padding:30px 20px;
+	color:#FF6600;
+	font-weight: bold;
+}
+
+h3{
+	
+	
+}
+
+.one-third{
+	width:26%;
+}
+
+.half{
+	width:40%;
+}
+.extra-price{
+	margin-top:50px;
+	text-align:center;
+	font-weight:bold;
+	color:lime;
+}
+.foot-link{
+	color:#CC3300;text-align:left;
+	text-shadow: 1px 1px 1px yellow;
+	margin:0;
+	padding:2px 0 1px 45px ;
+}
+
+.center{
+	text-align:center;
+}
+
+
+.buy,.miles{
+	text-align:center;
+	margin-top:60px;
+}
+
+.buy{
+	color:#0000FF;
+	font-weight:bolder;
+}
+
+.miles{
+	color:yellow;
+	font-weight:bolder;
+}
+
+#footer{
+	border-top: 2px solid black;
+	background: url(https://www.xmple.com/wallpaper/gradient-red-black-linear-5120x2880-c2-000000-8b0000-a-180-f-14.svg);
+}

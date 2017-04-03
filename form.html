@@ -1,0 +1,333 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Untitled Document</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="slider.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/datepicker.css" type="text/css" />
+    <link rel="stylesheet" media="screen" type="text/css" href="css/layout.css" />
+  	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/datepicker.js"></script>
+    <script type="text/javascript" src="js/eye.js"></script>
+    <script type="text/javascript" src="js/utils.js"></script>
+    <script type="text/javascript" src="js/layout.js?ver=1.0.2"></script>
+	<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+	<script type="text/javascript" src="js/form-validate.js"></script>
+</head>
+
+<body>
+			<div id="top-box">
+				<div class="row">
+					<ul>
+						<li><a href="" class="top-link">Login</a></li>
+						<li><a href="" class="top-link">English</a></li>
+						<li><input type="text" placeholder="Enter something to search..."/>	</li>
+					</ul>	
+				</div>
+			</div>
+			
+			<div class="clear"></div>
+			
+			<div class="row">
+					<img src="http://pngimg.com/uploads/plane/plane_PNG5245.png" width="355" height="135"/>
+					
+					<div id="items">
+						<ul>
+							<li><a class="item-link lower" href="">PLAN TRAVEL</a></li>
+							<li><a class="item-link lower" href="">TRAVEL INFORMATION</a></li>
+							<li><a class="item-link lower" href="">AADVANTAGE</a></li>
+						</ul>
+					</div>
+			</div>
+				
+			<div class="clear"></div>
+					
+							
+			<div id="da-slider" class="da-slider">
+				<div class="da-slide">
+					<h2>Warm welcome</h2>
+					<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.</p>
+					<div class="da-img"><img src="images/1.png" alt="image01" /></div>
+				</div>
+				<div class="da-slide">
+					<h2>Easy management</h2>
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+					<div class="da-img"><img src="images/2.png" alt="image01" /></div>
+				</div>
+				<div class="da-slide">
+					<h2>Revolution</h2>
+					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+					<div class="da-img"><img src="images/3.png" alt="image01" /></div>
+				</div>
+				<div class="da-slide">
+					<h2>Quality Control</h2>
+					<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					<div class="da-img"><img src="images/4.png" alt="image01" /></div>
+				</div>
+				<nav class="da-arrows">
+					<span class="da-arrows-prev"></span>
+					<span class="da-arrows-next"></span>				</nav>
+			</div>
+     
+				<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+				<script type="text/javascript" src="js/jquery.cslider.js"></script>
+				<script type="text/javascript">
+					$(function() {
+						$('#da-slider').cslider({
+							autoplay	: true,
+							bgincrement	: 450
+						});
+					
+					});
+				</script>	
+				
+				<div class="clear"></div>
+		
+		<div id="wrapper">
+			
+			<div class="clear"></div>
+			<div id="header">
+				
+					<div id="log-in">
+					<div class="row clear">
+					<h2>User Login</h2>
+					<p>Join AAdvantage</p>
+					</ul>
+						
+						
+					</div>
+					
+					
+					  <div class="row-login">
+							<h4 class="form-label">Username</h4>
+						    <input name="text" type="text" />
+					  </div>
+						
+						<div class="row-login">
+							<h4 class="form-label">Lastname</h4>
+							<input type="text" />
+						</div>
+						
+						<div class="row-login">
+							<h4 class="form-label">Password</h4>
+							<input type="text" />
+						</div>
+						
+						<div class="row-login">
+							<h4 class="form-label left">Rememer me? <input type="checkbox" class="check"/ ></h4>
+							<a href="#" class="login-button">Login</a>
+						</div>
+						
+						
+					  <div>
+					  	<div class="row-login">
+						</div>
+						<h4 class="form-label">Forgot your AAdvantage number/password? </h4>
+					    <p></p>
+					  </div>
+						<div>
+						  <div></div>
+					  </div>
+						<br />
+						<h4 class="form-label">&nbsp;</h4>
+	
+				</div>
+				
+					<div id="tabs-management">
+					<ul>
+					<li class="tab act"><a href="" class="active">Book Flights</a></li>
+					<li class="tab"><a class="item-link" href="" onClick="loadContent(this)">My trips (Check-in)</a></li>
+					<li class="tab"><a class="item-link" href="" onClick="loadContent(this)">Flight Status</a></li>
+					</ul>
+						<div class="clear"></div>
+						<div id="content-tab">
+							<p class="small-trip">Round trip</p>
+							<p class="small-trip">Round trip</p>
+							<p class="small-trip">Round trip</p>
+							<p class="info left"> <input type="checkbox"/ > Book In Advance</p>
+							
+					
+							<div class="clear"></div>
+						
+						<div class="row-login half left">
+							<h4 class="form-label">Title <span class="right result-title"></span></h4>
+							<input type="text" id="title" name="title" placeholder="Enter your article title"/>
+							
+							</div>
+							
+							<div class="row-login half left">
+							<h4 class="form-label">Email <span class="right result"></span></h4>
+							<input type="email" id="email" name="email"  placeholder="Enter your email,.i.e, example@com.vn"/>
+						</div>
+							
+							
+						
+						
+						<div class="row-login half left">
+							<h4 class="form-label">Link</h4>
+							<input type="text" disabled />
+						</div>
+						
+						<div class="row-login half left">
+							<h4 class="form-label">Phone <span class="right result-phone"></span></h4>
+						    <input name="phone" type="text" id="phone"  pattern="^\d{4}-\d{3}-\d{4}$" placeholder="Enter your phone,.i.e, 0986412808"/>
+					  </div>
+						
+						
+						
+						<div class="row-login half left">
+							<h4 class="form-label">Marked</h4>
+							<input type="text" id="marked" name="marked" />
+						</div>
+						
+						<div class="row-login half left">
+							<h4 class="form-label">Schedule  Post</h4>
+							<input type="text" class="inputDate" id="inputDate" value="01/01/2000" />
+						</div>
+						
+						
+						
+						<div class="clear"></div>
+							<div class="half left">
+								<h4 class="form-label">Content <span class="right result-content"></span></h4>
+							<textarea type="text" rows="7" cols="20" id="content" name="content" placeholder="At least 200 characters entry"></textarea>
+						
+							</div>
+							
+						
+						<div class="row-login half left">
+							<button id="click" type="submit">Register</button>
+							<input type="reset" id="resetBtn" />
+						</div>
+						
+						
+							<div class="clear"></div>
+							<div class="clear"></div>
+							<div class="one-third left">
+								<a class="small-item" href="#"> >>> Baggage & optional service fees</a>
+							</div>
+							
+							<div class="one-third left">
+								<a class="small-item" href="#"> >>> Changed bag fees for Cuba and Haiti</a>
+							</div>
+							
+							<div class="one-third left">
+								<a class="small-item" href="#"> >>> Advanced search</a>
+							</div>
+						</div>
+				</div>
+				
+				<div class="clear"></div>
+					<div id="feature">
+						<h3 class="title">News And Offers</h3>
+						<ul>
+							<li><a class="small-item extras" href="">Earn up to 50,000 miles for 5-night stays </a></li>
+							<li><a class="small-item extras" href="">Make your vacation the total package </a></li>
+							<li><a class="small-item extras" href="">Create an account</a></li>
+						</ul>
+					</div>
+					
+					<div id="feature">
+					<h3 class="title">Up to 115,000 bonus miles</h3>
+						<img src="plane.png" width="152" height="102" />
+						<p class="info">Buy miles through April 13 and take off with bonus miles</p>
+						<a class="small-item extras" href="#">Buy of gift miles</a>
+					</div>
+					
+					<div id="feature">
+					<h3 class="title">Travel to new heights</h3>
+						<img src="map.png" width="151" height="99" />
+						<p class="info">Buy miles through April 13 and take off with bonus miles</p>
+						<a class="small-item extras" href="#">Apply now</a>
+					</div>
+					
+					<div class="clear"></div>
+				<div id="specials">
+					<div id="feature">
+						<h3 class="title">Today's Special</h3>
+						<img src="car.png" />
+						<p class="info">Experience our newest class of service on picked international flights</p>
+						<a class="small-item extras" href="#">Book your seat</a>
+					</div>
+					
+					<div id="feature">
+						<h3 class="title">Today's Special</h3>
+						<img src="car.png" />
+						<p class="info">Experience our newest class of service on picked international flights</p>
+						<a class="small-item extras" href="#">Book your seat</a>
+					</div>
+					
+					<div id="feature">
+						<h3 class="title">Today's Special</h3>
+						<img src="car.png" />
+						<p class="info">Experience our newest class of service on picked international flights</p>
+						
+						<a class="small-item extras" href="#">Book your seat</a>
+					</div>
+				</div>
+				
+				<div class="clear"></div>
+				
+		</div>
+		
+			
+		</div>
+		
+		<div class="clear"></div>
+		<div id="footer">
+					<div class="categories">
+						<h3 class="small-title">Help</h3>
+						<ul>
+							<li><a class="foot-link">Contact American</a></li>
+							<li><a class="foot-link">Receipts and refunds</a></li>
+							<li><a class="foot-link">FAQs</a></li>
+							<li><a class="foot-link">Agency reference</a></li>
+							<li><a class="foot-link">Cargo</a></li>
+							<li><a class="foot-link">Baggage and optional service fees</a></li>
+							<li><a class="foot-link">Customer service and contingency plans</a></li>
+							<li><a class="foot-link">Conditions of carriage and tariffs</a></li>
+							
+						</ul>
+					</div>
+					
+					<div class="categories">
+						<h3 class="small-title">Extra</h3>
+						<ul>
+							<li><a class="foot-link">Business programs</a></li>
+							<li><a class="foot-link">Gift cards</a></li>
+							<li><a class="foot-link">American Airlines credit card</a></li>
+							<li><a class="foot-link">Trip insurance</a></li>
+						</ul>
+					</div>
+					
+					
+					
+					<div class="categories">
+						<h3 class="small-title">About American</h3>
+						<ul>
+							<li><a class="foot-link">About us</a></li>
+							<li><a class="foot-link">Carrers</a></li>
+							<li><a class="foot-link">Invester realtions</a></li>
+							<li><a class="foot-link">Newroom</a></li>
+							<li><a class="foot-link">Web Accessity</a></li>
+						</ul>
+					</div>
+					
+					<div class="categories">
+						<h3 class="buy">Buy<span class="miles">Miles</span></h3>
+						<p class="extra-price">Earn up to 115.000 bonus miles</p>
+						<p class="extra-price">Earn up to 115.000 bonus miles</p>
+						<p class="extra-price">Earn up to 115.000 bonus miles</p>
+						<p class="extra-price">Earn up to 115.000 bonus miles</p>
+					
+					</div>
+					<hr/>
+					<div class="clear"></div>
+					<p class="note"> Link opens in new window. Site may not meet accessibility guidelines. </p>
+		</div>
+		
+		
+</body>
+</html>
